@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: tahoma;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93, 218, 93, 0.334) 0%);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.bilgi {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bilgi input {
+
+    width: 780px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    background-color: transparent;
+    text-indent: 10px;
+    font-size: 20px;
+
+}
+
+.eklenen {
+    width: 780px;
+    min-height: 200px;
+}
+
+.eklenen .alinacak {
+    background-color: khaki;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.eklenen .alinacak span {
+    padding-left: 20px;
+}
+
+.eklenen .alinacak i {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.alindi {
+    width: 780px;
+}
+
+.alindi .alinan {
+    background-color: khaki;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.alindi .alinan span {
+    padding-left: 20px;
+}
+
+.alindi .alinan i {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) and (min-width:100px) {
+
+    .bilgi input{
+        width: 350px;
+    }
+
+    .eklenen {
+        width: 350px;
+        min-height: 200px;
+    }
+
+    .alindi {
+        width: 350px;
+    }
+
+}
